@@ -1,9 +1,12 @@
 {
-  "name": "egg-mysql",
+  "name": "@zhennann/egg-mysql",
   "version": "3.4.0",
   "description": "MySQL plugin for egg",
   "eggPlugin": {
     "name": "mysql"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "files": [
     "config",
@@ -20,7 +23,7 @@
     "database"
   ],
   "dependencies": {
-    "ali-rds": "^4.0.1"
+    "@zhennann/ali-rds": "^4.1.0"
   },
   "devDependencies": {
     "egg": "^3.5.0",
